@@ -79,7 +79,7 @@ Taking 12.1 as an example, in [installation guides](https://docs.nvidia.com/cuda
     sudo dpkg -l | grep gcc
     sudo dpkg -l | grep g++
 
-for my computer I see version 11, 13 and 14 on it. To be safe, we install gcc/g++ version 12 right now.
+for my computer I see version 10, 11 and 13 on it. To be safe, we install gcc/g++ version 12 right now.
     
     sudo apt-get install gcc-12
     sudo apt-get install g++-12
@@ -89,7 +89,7 @@ and we'll see g++-12 is already the newest version (12.3.0-17ubuntu1). Same for 
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 12
     sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-12 12
 
-If we want to arrange other versions, just add the following code if 11 and 13 also on the disk:
+If we want to arrange other versions, just add the following code if 11 and 13 as example also on the disk:
 
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 11
     sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 11
