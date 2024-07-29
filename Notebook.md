@@ -1,7 +1,6 @@
 # How to apply multiple CUDA versions in Ubuntu system?
 
 ## Download CUDA files
-1. Download CUDA from NVIDIA websistes.
  
  To pick the CUDA files you need to select the options based on specific machine and system. For me it is 
  Linux | x86_64 | Ubuntu 22.04 | runfile(local)
