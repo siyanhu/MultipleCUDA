@@ -74,7 +74,7 @@ e.g.
 
 **12.5** https://docs.nvidia.com/cuda/archive/12.5.0/cuda-installation-guide-linux/index.html
 
-Taking 12.1 as an example, in [installation guid](https://docs.nvidia.com/cuda/archive/12.1.0/cuda-installation-guide-linux/index.html) we know that we need gcc/g++ 12.2 + for CUDA toolkit. So we check what we have on our system first:
+Taking 12.1 as an example, in [installation guides](https://docs.nvidia.com/cuda/archive/12.1.0/cuda-installation-guide-linux/index.html) we know that we need gcc/g++ 12.2 + for CUDA toolkit. So we check what we have on our system first:
 
     sudo dpkg -l | grep gcc
     sudo dpkg -l | grep g++
